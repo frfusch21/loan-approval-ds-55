@@ -15,7 +15,8 @@ desc_temp = """ ### Loan Prediction App
                 
                 #### Data Source
                 Kaggle: Link <Masukkan Link>
-                The content of this data:
+                
+                #### The content of this data:
                 <ul>
                     <li>Gender: The gender of borrower</li>
                     <li>Married: Status of Marriage of borrower</li>
@@ -84,4 +85,5 @@ def predict(gender, married, dependent, education, self_employed, applicant_inco
     return result
 
 if __name__ == "__main__":
+
     main()
